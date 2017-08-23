@@ -11,11 +11,10 @@ class App extends Component {
         <div className="title">
           <div className="my-header">
             <p>Earthquakes!</p>
-            <EarthquakeInfo />
-            <EarthquakeList />
           </div>
-
         </div>
+        <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
